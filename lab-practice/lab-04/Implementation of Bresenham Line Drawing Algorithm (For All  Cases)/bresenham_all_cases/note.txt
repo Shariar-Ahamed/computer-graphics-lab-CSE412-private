@@ -1,0 +1,26 @@
+| Case           | Coordinates      | কেন ভালো           |
+| -------------- | ---------------- | ------------------ |
+| slope < 1      | (2,2) → (18,6)   | ধীরে উঠবে           |
+| slope > 1      | (3,2) → (7,18)   | দ্রুত উঠবে           |
+| negative slope | (2,18) → (18,4)  | নিচের দিকে নামবে     |
+| vertical       | (10,2) → (10,18) | শুধু y change        |
+| horizontal     | (2,10) → (18,10) | শুধু x change        |
+
+
+---
+
+
+void display()
+{
+    glClear(GL_COLOR_BUFFER_BIT);
+    glColor3f(1.0, 0.0, 0.0);
+    glPointSize(5.0);
+
+    drawLineBresenham(-15, -10, 15, 5);   // + slope
+    drawLineBresenham(-5, -15, 5, 15);    // steep + slope
+    drawLineBresenham(-15, 10, 15, -5);   // - slope
+    drawLineBresenham(-10, 15, -10, -15); // vertical
+    drawLineBresenham(-15, 0, 15, 0);     // horizontal
+
+    glFlush();
+}
