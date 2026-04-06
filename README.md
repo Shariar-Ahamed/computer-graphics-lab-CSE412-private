@@ -24,8 +24,8 @@ All codes and materials are organized gradually according to lab classes.
 
 ## 📂 Repository Structure (Initial)
 ```bash
-computer-graphics-lab-CSE412-private/
-│
+computer-graphics-lab-CSE412-private
+│ 
 ├── 📁 lab-01
 │   ├── 📁 1 draw_point
 │   │   ├── ⚡ draw_point.cpp
@@ -88,7 +88,25 @@ computer-graphics-lab-CSE412-private/
 │   ├── 📁 0 Items
 │   │   ├── 📕 2D_.pdf
 │   │   └── 📕 2D_Transformation (1).pdf
-│   ├── 📁 Bangladesh Flag with All Transformations Using OpenGL
+│   ├── 📁 01 Drawing Four Colored Hexagons Using OpenGL (2D_Translation)
+│   │   ├── ⚡ four_colored_hexagons_opengl.cpp
+│   │   └── 🖼️ image.png
+│   ├── 📁 02 Scaling of a Hexagon Using OpenGL
+│   │   ├── ⚡ hexagon_scaling_opengl.cpp
+│   │   └── 🖼️ image.png
+│   ├── 📁 03 Translation of a Hexagon Using OpenGL (Rotation)
+│   │   ├── ⚡ hexagon_translation_opengl.cpp
+│   │   └── 🖼️ image.png
+│   ├── 📁 04 Reflection of a Hexagon Using OpenGL
+│   │   ├── ⚡ hexagon_reflection_opengl.cpp
+│   │   └── 🖼️ image.png
+│   ├── 📁 05 Shearing of a Hexagon Using OpenGL
+│   │   ├── ⚡ hexagon_shearing_opengl.cpp
+│   │   └── 🖼️ image.png
+│   ├── 📁 06 Drawing Animated Bangladesh Flag Using OpenGL
+│   │   ├── ⚡ bangladesh_flag_wave_animation_opengl.cpp
+│   │   └── 🖼️ image.png
+│   ├── 📁 07 Bangladesh Flag with All Transformations Using OpenGL
 │   │   ├── 📁 Image
 │   │   │   ├── 🖼️ 2D_Translation.png
 │   │   │   ├── 🖼️ Reflection.png
