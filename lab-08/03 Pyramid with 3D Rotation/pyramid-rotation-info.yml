@@ -1,0 +1,46 @@
+project:
+  name: "3D Pyramid Rotation OpenGL"
+  language: "C++"
+  library: "OpenGL GLUT"
+
+description: >
+  This program draws a 3D pyramid using user-provided base points and a top point.
+  The pyramid can be rotated along the X, Y, and Z axes using keyboard input.
+
+inputs:
+  base_first_point:
+    format: "x1 y1 z1"
+    example: "-5 0 -5"
+    note: "The first point of the square base"
+
+  base_opposite_point:
+    format: "x2 y2 z2"
+    example: "5 0 5"
+    note: "The opposite point of the square base"
+
+  top_point:
+    format: "x y z"
+    example: "0 8 0"
+    note: "The top or apex point of the pyramid"
+
+  rotation_step:
+    format: "Rx Ry Rz"
+    example: "5 5 5"
+    note: "The rotation amount in degrees for each key press"
+
+keyboard_controls:
+  X: "Rotate the pyramid positively around the X-axis"
+  x: "Rotate the pyramid negatively around the X-axis"
+  Y: "Rotate the pyramid positively around the Y-axis"
+  y: "Rotate the pyramid negatively around the Y-axis"
+  Z: "Rotate the pyramid positively around the Z-axis"
+  z: "Rotate the pyramid negatively around the Z-axis"
+
+sample_input:
+  base_first_point: "-5 0 -5"
+  base_opposite_point: "5 0 5"
+  top_point: "0 8 0"
+  rotation_step: "5 5 5"
+
+output:
+  description: "A colored 3D pyramid is displayed in an OpenGL window and rotates based on keyboard input."
