@@ -1,0 +1,10 @@
+Task 01:
+Create an Animation System
+1. Draw a simple robot (using basic shapes like rectangle, triangle, circle).
+
+2. The robot performs an automated task cycle:
+i) Robot moves from left → right
+ii) Circle gear rotates continuously
+
+3. Apply the following transformations:
+i) Scaling (increase/decrease size automatically such as for first step size increases and for 2nd step size decreases…………)
